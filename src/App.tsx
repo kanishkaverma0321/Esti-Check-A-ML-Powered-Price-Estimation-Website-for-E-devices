@@ -16,7 +16,7 @@ function App() {
           <Header />
           <main className="flex-grow">
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route index element={<HomePage />} />
               <Route path="/estimate" element={<EstimationPage />} />
               <Route path="/compare" element={<ComparisonPage />} />
               <Route path="/guide" element={<UserGuidePage />} />
