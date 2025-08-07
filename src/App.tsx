@@ -11,7 +11,7 @@ import { AppProvider } from './context/AppContext.tsx';
 function App() {
   return (
     <AppProvider>
-      <Router>
+      <Router basename="/Esti-Check-A-ML-Powered-Price-Estimation-Website-for-E-devices">
         <div className="flex flex-col min-h-screen bg-slate-50">
           <Header />
           <main className="flex-grow">
